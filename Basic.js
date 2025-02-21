@@ -25,3 +25,12 @@
 // Using createBrowserRouter with RouterProvider.
 // Using BrowserRouter with Routes and Route.
 // Using dynamic parameters in routes like /profile/:id.
+
+//Fetch and Axios
+// fetch() (Built-in JavaScript Function) response ko manually JSON me convert karna padta hai (.json()).
+// Axios (Third-party Library) Pros (Advantages):
+// ✅ Automatically JSON me convert kar deta hai, .json() call karne ki zaroorat nahi.
+// ✅ Automatic error handling (Axios HTTP errors (404, 500) ko bhi catch kar leta hai).
+// ✅ Timeout set kar sakte ho (fetch me nahi hota).
+// ✅ Request cancel kar sakte ho (useful for search suggestions).
+// ✅ Supports older browsers like IE.
